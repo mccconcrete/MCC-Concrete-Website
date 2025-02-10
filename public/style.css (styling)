@@ -1,3 +1,4 @@
+/* Reset some default styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -5,23 +6,68 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Header Styling */
 header {
     background: #333;
     color: white;
     padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
-h1, h2 {
-    color: #222;
-}
+
+/* Main Content */
 section {
-    margin: 20px;
-    padding: 20px;
     background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-footer {
-    margin-top: 20px;
-    padding: 10px;
+
+/* Headings */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #444;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Service List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
     background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Contact Link */
+footer p a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+footer p a:hover {
+    background: #007bff;
     color: white;
 }
