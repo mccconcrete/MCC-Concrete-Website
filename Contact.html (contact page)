@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - MCC Concrete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact MCC Concrete</h1>
+    </header>
+    <section>
+        <p>Email: <a href="mailto:mccconcretefoundations@gmail.com">mccconcretefoundations@gmail.com</a></p>
+        <p>Phone: 603-422-2776</p>
+    </section>
+</body>
+</html>
